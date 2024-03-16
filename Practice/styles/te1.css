@@ -1,0 +1,20 @@
+p {
+  font-family: Arial;
+  margin-bottom: 5px;
+  margin-top: 0;
+}
+.fcc {
+font-weight: bold;
+}
+.fcc1 {
+color: grey;
+}
+.chp {
+color: rgb(28, 81, 127);
+}
+.dev {
+margin-top: 10px;
+}
+.web {
+width: 550px;
+}

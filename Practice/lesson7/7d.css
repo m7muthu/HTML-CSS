@@ -1,0 +1,27 @@
+.img {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+.text-box {
+  border: none;
+  width: 300px;
+  vertical-align: middle;
+  font-size: 16px;
+}
+.tweet {
+  background-color: rgb(11, 94, 209);
+  color: white;
+  border: none;
+  border-radius: 30px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  vertical-align: middle;
+  font-weight: bold;
+}

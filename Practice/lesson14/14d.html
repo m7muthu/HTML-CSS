@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      exercise
+    </title>
+    <style>
+      .side {
+        background-color: green;
+        color: white;
+        position: fixed;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        width: 100px;
+      }
+      .overlay {
+        background-color: rgba(0, 0, 0, 0.5);
+        position: fixed;
+        display: flex;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        align-items: center;
+      }
+      .model {
+        background-color: white;
+        width: 300px;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        border-radius: 5px;
+      }
+      .model-title {
+        font-family: Arial;
+        font-weight: bold;
+        font-size: 24px;
+        margin-bottom: 12px; 
+      }
+      .model-content {
+        font-family: Arial;
+        margin-bottom: 12px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="side">right sidebar</div>
+    <div class="overlay">
+      <div class="model">
+        <div class="model-title">
+          model-title
+        </div>
+        <div class="model-content">
+          This is a model
+        </div>
+        <button>close</button>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      11d
+    </title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0;
+        margin-bottom: 0;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: 200px 200px 200px;
+        align-items: center;
+        column-gap: 20px;
+      }
+      
+      .profile {
+        box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+      }
+      .profile-picture {
+        width: 200px;
+        height: 250px;
+        object-fit: cover;
+        margin-bottom: 12px;
+      }
+
+      .profile-name {
+        font-weight: bold;
+        margin-bottom: 5px;
+        margin-left: 8px;
+        margin-bottom: 5px;
+      }
+      .profile-stats {
+        margin-left: 8px;
+        color: grey;
+        display: inline-block;
+        vertical-align: middle;
+      }
+      .add {
+        border-radius: 5px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: white;
+        border: none;
+        margin-left: 8px;
+        background-color: rgb(24, 119, 242);
+        margin-left: 5px;
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .profile-stat-pic {
+        width: 20px;
+        border-radius: 50px;
+        margin-left: 8px;
+        vertical-align: middle;
+      }
+      .mutualfriends-row {
+        margin-bottom: 10px;
+      }
+
+    </style>
+    </head>
+    <body>
+      <div class="grid">
+        <div class="profile">
+          <div>
+            <img class="profile-picture" src="images/joker.jpeg">
+          </div>
+          <div>
+            <p class="profile-name">
+              Oliver
+            </p>
+            <div class="mutualfriends-row" >
+              <img class="profile-stat-pic" src="images/cat.jpeg">
+            <p class="profile-stats">
+              2 mutual friends
+            </p>
+            </div>
+            <button class="add">
+              Add Friend
+            </button>
+          </div>
+        </div>
+        <div class="profile">
+          <div>
+            <img class="profile-picture" src="images/joker1.jpeg">
+          </div>
+          <div>
+            <p class="profile-name">
+              Mimi
+            </p>
+            <div class="mutualfriends-row">
+              <img class="profile-stat-pic" src="images/cat.jpeg">
+              <p class="profile-stats">
+                3 mutual friends
+              </p>
+            </div>
+            <button class="add">
+              Add Friend
+            </button>
+          </div>
+        </div>
+        <div class="profile">
+          <div>
+            <img class="profile-picture" src="images/joker2.jpg">
+          </div>
+          <div>
+            <p class="profile-name">
+              Ayla
+            </p>
+            <div class="mutualfriends-row">
+              <img class="profile-stat-pic" src="images/cat.jpeg">
+              <p class="profile-stats">
+                9 mutual friends
+              </p>
+            </div>
+            <button class="add">
+              Add Friend
+            </button>
+          </div>
+      </div>
+    </body>
+</html>

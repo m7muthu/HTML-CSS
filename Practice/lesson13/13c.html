@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      lesson13
+    </title>
+    <style>
+      div {
+        font-family: Arial;
+      }
+      
+      .container {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 400px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+        border-radius: 4px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+
+      .inbox-label {
+        font-size: 14px;
+        color: rgb(120, 120, 120);
+        margin-bottom: 20px;
+      }
+
+      .email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .sender-pic-container {
+        margin-right: 10px;
+      }
+
+      .sender-pic {
+        width: 50px;
+        height: 50px;
+        object-fit: cover;
+        border-radius: 25px;
+      }
+
+      .email-content {
+        flex: 1;
+      }
+      
+      .email-header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 3px;
+      }
+
+      .sender-name {
+        font-size: 18px;
+        font-weight: bold;
+      }
+
+      .sender-time {
+        color: rgb(120, 120, 120);
+        font-size: 14px;
+      }
+
+      .subject {
+        font-weight: bold;
+        margin-bottom: 5px;
+      }
+
+      .message {
+        color: rgb(120, 120, 120);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="inbox-label">
+        All Inboxes
+      </div>
+      <div class="email">
+        <div class="sender-pic-container">
+          <img class="sender-pic" src="images/joker.jpeg">
+        </div>
+        <div class="email-content">
+          <div class="email-header">
+            <div class="sender-name">Muthukumar Entreprises</div>
+            <div class="sender-time">4:58 AM</div>
+          </div>
+          <div class="subject">
+            Biggest Sales of the year!
+          </div>
+          <div class="message">
+            Hey ther! We're writing to tell you about our...
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

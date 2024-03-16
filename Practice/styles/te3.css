@@ -1,0 +1,26 @@
+p {
+  margin-bottom: 0;
+  margin-top: 0 ;
+}
+.usd {
+  font-size: 40px;
+  font-family: Arial;
+  margin-bottom: 0;
+}
+.usd1 {
+  color: grey;
+  margin-bottom: 0;
+}
+.today {
+  color: green;
+  margin-top: 0px;
+}
+.hours {
+  color: grey;
+}
+.hours1{
+  color: red;
+}
+.sen {
+  margin-top: 10px;
+}

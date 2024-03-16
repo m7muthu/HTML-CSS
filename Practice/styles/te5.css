@@ -1,0 +1,12 @@
+p {
+  text-align: center;
+  font-family: Arial;
+}
+.shop {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.more {
+  color: rgb(42, 87, 201); 
+}

@@ -1,0 +1,35 @@
+.ques {
+  font-family: Arial;
+}
+
+.yes-or-no {
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(150, 150, 150);
+  width: 300px;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+.apple {
+  background-color: rgb(33, 33, 33);
+  width: 360px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.install {
+  font-family: Arial;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.why {
+  color: rgb(160, 160, 160);
+  font-family: Arial;
+}

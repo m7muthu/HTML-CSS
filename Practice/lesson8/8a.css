@@ -1,0 +1,13 @@
+.text-box1 {
+  display: block;
+  margin-bottom: 10px;
+}
+.text-box2 {
+  display: block;
+  margin-bottom: 30px;
+}
+.feedback {
+  display: inline-block;
+  vertical-align: middle;
+  width: 300px;
+}
